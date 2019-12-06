@@ -1,11 +1,4 @@
-const name = 'Dariss'
-console.log(name)
+import add from './utilities'
 
-class Hangman {
-    myMethod() {
-        console.log('testing')
-    }
-}
-
-const hangman = new Hangman()
-console.log(hangman.myMethod())
+console.log('index.js')
+console.log(add(2,3))
