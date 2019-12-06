@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "build": "babel src/index.js -o public/scripts/bundle.js --presets env --watch",
+    "serve": "live-server public",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "live-server": "^1.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^2.0.14"
+  }
+}
